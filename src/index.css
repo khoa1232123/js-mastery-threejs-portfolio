@@ -114,6 +114,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+.input__contact {
+  @apply bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
